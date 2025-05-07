@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 const app_id = "70223";  // Your Deriv App ID
-const api_token = "your_api_token";  // Replace with your actual API token
+const api_token = "iWFwVLmY6NuucAK";  // Your Deriv API token
 
 // Connect to Deriv WebSocket API
 const socket = new WebSocket("wss://ws.binaryws.com/websockets/v3?app_id=" + app_id);
